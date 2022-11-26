@@ -1,0 +1,25 @@
+.location-item {
+  display: flex;
+  width: 50%;
+  padding: 14px 16px;
+  border: 2px solid gray;
+  margin-top: 20px;
+}
+
+.location-item > .location--img {
+  width: 125px;
+  height: 168px;
+}
+
+.location-item > .location-details {
+  padding: 8px 10px;
+}
+
+.details--place > .place--pin {
+  display: flex;
+}
+
+.place--pin > img {
+  width: 20px;
+  height: 20px;
+}

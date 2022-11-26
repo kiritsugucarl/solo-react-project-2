@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  min-height: 55px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #f55a5a;
+}
+
+header > img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+header > h3 {
+  color: #fff;
+}
