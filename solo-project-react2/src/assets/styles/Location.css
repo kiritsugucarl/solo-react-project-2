@@ -7,8 +7,8 @@
 }
 
 .location-item > .location--img {
-  width: 125px;
-  height: 168px;
+  width: 150px;
+  height: 190px;
 }
 
 .location-item > .location-details {
@@ -17,9 +17,30 @@
 
 .details--place > .place--pin {
   display: flex;
+  align-items: center;
+  align-content: center;
 }
 
 .place--pin > img {
   width: 20px;
   height: 20px;
+}
+
+.place--pin > small > a {
+  color: gray;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.place--pin > .country {
+  letter-spacing: 1.5px;
+}
+
+.details--place > .details--date {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.details--place > .details--desc {
+  font-size: 11px;
 }

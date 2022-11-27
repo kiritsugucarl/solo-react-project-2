@@ -9,12 +9,12 @@ function Location(props){
                 <div className="details--place">
                     <div className="place--pin">
                         <img src={pinIcon}/>
-                        <span className="country"><small>{props.item.country}</small></span>
-                        <a target="_blank" href={props.item.googleMapsUrl}>View on Google Maps</a>
+                        <span className="country"><small>{props.item.country.toUpperCase()}</small></span>
+                        <small><a target="_blank" href={props.item.googleMapsUrl}>View on Google Maps</a></small>
                     </div>
-                    <h1>{props.item.title}</h1>
-                    <p>{`${props.item.startDate} - ${props.item.endDate} `}</p>
-                    <p>{props.item.description}</p>
+                    <h1 className="details--title">{props.item.title}</h1>
+                    <p className="details--date">{`${props.item.startDate} - ${props.item.endDate} `}</p>
+                    <p className="details--desc">{props.item.description}</p>
                 </div>
             </div>
         </div>
